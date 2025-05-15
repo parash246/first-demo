@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github</title>
+    <script>
+        function show(){
+            document.getElementById("demo").innerHTML= "Hi, Parash Congratulation, You are passed";
+        }
+        
+    </script>
+    <style>
+        .sub {
+            margin-right: 40px;
+            margin-left: 80px;
+            margin-top: 10px;
+            
+        }
+    </style>
 </head>
 <body>
     <p>Hello World!</p>
+    <p id="demo"></p>
+    <button onclick="show()"> Click to check your result</button>
+    <form>
+
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+                <input class="sub" type="submit" value="submit">
+    </form>
 </body>
 </html>
